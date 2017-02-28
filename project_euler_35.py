@@ -20,6 +20,7 @@ def is_prime(x):
     # no factor found
     return True
 
+# returns True if all rotations of the argument are prime
 def is_circular_prime(x):
 
     for i in range(len(str(x))):
